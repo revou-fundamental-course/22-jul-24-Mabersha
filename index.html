@@ -3,70 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head><link rel="stylesheet" href="css\styles.css">
-
+    <title>Your Trusted Course</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+</head>
 <body>
-<nav>
-
-    <header>
-        <div class="logo-icon"></div>
-    </header>
-
-        <section class="nav-container">
-            <a class="nav-item">Home</a>
-            <a class="nav-item">Our Packagae</a>
-            <a class="nav-item">Call Us</a>
-        </section>
-</nav>    
-
-<main>
-<article class="main-title">
-<header>
-<h1>Trusted Class to Make Your Dream Come True</h1>
-</header>
-
-<p>Upgrade Your Language Upgrade Your Life</p>
-</article>
-
-<section class="main-conten">
-<article class="main-content-item">
-    <div class="main-content-banner"></div>
-
+    <nav>
+        
+          <div class="logo-icon" id="logo-icon"style="background-image: url(asset/Logo.png);"></div>
+        <div class="nav-container">
+            <a class="nav-item" href="#logo-icon">Home</a>
+            <a class="nav-item" href="#packages">Our Package</a>
+            <a class="nav-item" href="#CALL-US">Call Us</a>
+        </div>
+    </nav>    
     <div class="main-item">
         <div class="item-icon"></div>
-
         <div>
-            <h3>Huang</h3>
-            <p>Mahasiswa</p>
+            <h1>Your Trusted Course</h1>
+            <p>Upgrade Your Language Upgrade Your Life</p>
         </div>
     </div>
-</article>
+   
+        <div class="content-container">
+            <section class="banner">
+                <div class="banner-content">
+                <div class="slider">
+                    <div class="slides-container">
+                        <div class="slide"><img src="asset/English.jpeg" alt="English"></div>
+                        <div class="slide"><img src="asset/Mandarin.jpeg" alt="Mandarin"></div>
+                        <div class="slide"><img src="asset/German.jpeg" alt="German"></div>
+                        <div class="slide"><img src="asset/Korean.jpeg" alt="Korean"></div>
+                        <div class="slide"><img src="asset/French.jpeg" alt="French"></div>
+                        <div class="slide"><img src="asset/Spainish.jpeg" alt="Spain"></div>
+                    </div>
+                </div>
+                <div class="banner-content">
+                    <p>This site very help me to study English</p>
+                </div>
+            </div>
+                    <div class="testimoni">
+                        <img src="asset/icon.png" alt="Stefanny lilian">
+                        <div class="text">
+                            <p>Stefanny lilian, English Course Student, 21</p>
+                        </div>
+                    </div>
 
-<form class="main-content-item">
-    <p>Your name</p>
-<input type="text" placeholder="First and last name" id="nama-input" required>
+                    <div class="features">
+                        <h2>Our Advantages</h2>
+                        <ul>
+                            <li>1. Learn a new language with interactive methods and the latest materials. </li>
+                            <li>2. Join and improve your language skills with the guidance of our expert teachers.</li>
+                        </ul>
+                        </div>
+            </section>
 
-<p>Email Address</p>
-<input type="email" placeholder="example@email.com" id="email-input" required>
+            <form class="main-content-item">
+                <header>
+                    <h2>Contact Us</h2>
+                    <p>Customer service will contact you within 1x24 hours after we receive the data.</p>
+                </header>
+                <label for="name">Your Name :</label>
+                <input type="text" placeholder="First and last name" id="name" name="name" required>
 
-<p>Select a class</p>
-<div class="select-container">
-<select id="class-select" required>
-    <option value="" disabled selected>Select a class</option>
-    <option value="class1">English Class </option>
-    <option value="class2">Mandarin Class </option>
-    <option value="class3">Korean Class </option>
-    <option value="class2">Spain Class </option>
-    <option value="class3">Deutsch Class </option>
-    <option value="class3">France Class </option>
-    
-</select>
-</div>
-<button type="Submit">Submit</button>
-</form>
+                <label for="email">Email Address :</label>
+                <input type="text" placeholder="@email.com" id="email" name="email" required>
 
-</section>
-</main>
+                <label for="Course">What Course do you want to join?  :</label>
+                <select id="Course" name="Course">
+                    <option value="English Course">English Course</option>
+                    <option value="Mandarin Course">Mandarin Course</option>
+                    <option value="Korean Course">Korean Course</option>
+                    <option value="Spain Course">Spain Course</option>
+                    <option value="Deutsch Course">Deutsch Course</option>
+                    <option value="France Course">France Course</option>
+                </select>
+
+                <button type="submit">SEND</button>
+            </form>
+        </div>
+
+        <div class="packages" id="packages">
+            <h2>Our Package</h2>
+            <div class="package">
+                <h3>Basic Class</h3>
+                <p>Offers a foundation for beginners with basic vocabulary, everyday phrases, and simple grammar.</p>
+            </div>
+            <div class="package">
+                <h3>Advanced Class</h3>
+                <p>For students who already have the basics and want to learn more complex and specific material.</p>
+            </div>
+            <div class="package">
+                <h3>Practice Materials</h3>
+                <p>Interactive exercises, quizzes and tests to test understanding and help learners correct mistakes.</p>
+            </div>
+            <div class="package">
+                <h3>Learning Videos</h3>
+                <p>A medium that helps learners understand pronunciation, intonation and language usage in real contexts.</p>
+            </div>
+            <div class="package">
+                <h3>Live Classes</h3>
+                <p>Live lessons via video call or face-to-face for direct interaction with the instructor</p>
+            </div>
+            <div class="package">
+                <h3>Certification Exam</h3>
+                <p>An official examination to produce a certificate with an academic or professional purpose.</p>
+            </div>
+        </div>
+
+        <div class="CALL-US" id="CALL-US">
+            <h2>Interested in Joining? Contact us immediately</h2>
+            <p>“We are ready to assist you with complete information about available courses”</p>
+            <button>CALL US</button>
+        </div>
+    </div>
+
+        <div class="footer">
+            <p>Terms of Service | Privacy Policy</p>
+            <p>&copy; 2024  Next Level Course</p>
+        </div>
 </body>
 </html>
